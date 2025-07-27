@@ -1,0 +1,1 @@
+podman run --rm  -e POSTGRES_PASSWORD=pgpwd4habr -e POSTGRES_USER=habrpguser -e POSTGRES_DB=users -p 5432:5432 docker.io/postgres:17.2-alpine3.21
